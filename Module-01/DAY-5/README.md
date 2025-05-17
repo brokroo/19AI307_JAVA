@@ -16,29 +16,33 @@ II.	Create multiple Student objects with different names.
 III.	Call the displayDetails() method for each student.
 8.	End the program.
 
-
-
 ## PROGRAM:
  ```
 /*
 Program to implement a Static Variable using Java
-Developed by: 
-RegisterNumber:  
+Developed by: SANJITH.R
+RegisterNumber: 212223230191
 */
+import java.util.*;
+public class Main
+{
+ static int age=18;
+ String name;
+	public static void main(String[] args) {
+	 Scanner sc=new Scanner(System.in);
+	 Main obj1=new Main();
+	 Main obj2=new Main();
+	 obj1.name=sc.next();
+	 obj2.name=sc.next();
+	 System.out.println("Student name: "+obj1.name+"Age: "+age);
+	 System.out.println("Student name: "+obj2.name+"Age: "+age);
+	}
+}
+
 ```
-
-## Sourcecode.java:
-
-
-
-
-
-
-
 ## OUTPUT:
 
-
+![image](https://github.com/user-attachments/assets/2305559c-37ad-479a-8fd4-12562ec75a7b)
 
 ## RESULT:
 Thus, the Java program for the concept of using a static variable for shared data was correctly implemented and verified successfully. 
-
