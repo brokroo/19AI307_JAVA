@@ -16,30 +16,31 @@ a)	If the condition is true, print "true" using the 'print' method of 'System.ou
 b)	If the condition is false, print "false" using the 'print' method of 'System.out'
 9.	End
 
-
-
-
-
 ## PROGRAM:
  ```
 /*
 Program to implement a variable and operators using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Sanjith R
+RegisterNumber: 212223230191
 */
+import java.util.*;
+public class Demo
+{
+    int a,b;
+    public static void main(String[] args)
+    {
+        Demo obj = new Demo();
+        Scanner sc=new Scanner(System.in);
+        obj.a=sc.nextInt();
+        obj.b=sc.nextInt();
+        System.out.println(obj.a < 50 && obj.a < obj.b);
+    }
+}
 ```
-
-## Sourcecode.java:
-
-
-
-
-
-
 
 ## OUTPUT:
 
-
+![image](https://github.com/user-attachments/assets/e8161fd4-e228-4d7a-a50e-2ec6322822a8)
 
 ## RESULT:
 Thus, the Java program to get values of variables 'a' and 'b' and then check if both the conditions 'a < 50' and 'a < b' are true is created successfully.
